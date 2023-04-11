@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-matches {
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 50%;
+    background-color: #3cb371;
+    padding: 10px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+.btn-matches:hover {
+    background-color: #20b2aa;
+}

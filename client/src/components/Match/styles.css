@@ -1,0 +1,68 @@
+.match {
+    width: 90%;
+    margin: 0 5%;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    color: #fff;
+    border: 0;
+    width: 80%;
+    background-color: #162e58;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 50px;
+    height: 900px;
+}
+
+tr:hover {
+    background-color: #637481;
+    cursor: pointer;
+}
+
+td {
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    float: right;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #3c4043;
+    padding: 10px;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    margin-top: 450px;
+}
+
+.result {
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    width: 10px;
+}
+
+.team-name {
+    width: 250px;
+}
+
+@media screen and (max-width: 1024px) {
+    table {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+        margin-top: 0;
+    }
+}
